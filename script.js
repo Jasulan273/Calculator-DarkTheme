@@ -24,9 +24,12 @@ const calculator = document.querySelector(".calculator");
 const toggleIcon = document.querySelector(".toggler-icon");
 let isDark = true;
 let main = document.querySelector(".main");
-themeToggleBtn.onclick = () => {
+themeToggleBtn.onclick = () => {  
   calculator.classList.toggle("dark");
   themeToggleBtn.classList.toggle("active");
   main.classList.toggle("white");
   isDark = !isDark;
 };
+
+
+let a = 5
